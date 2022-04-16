@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
 
 
-COPY /target/hello-world-spring-boot-pom-0.0.1-SNAPSHOT.jar /usr/app/ /usr/app/
+COPY /var/lib/jenkins/workspace/spring-boot-aap/target/hello-world-spring-boot-pom-0.0.1-SNAPSHOT.jar  /usr/app/
 
 WORKDIR /usr/app
 
